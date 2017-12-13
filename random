@@ -1,0 +1,5 @@
+import random
+n =int(input("enter the num 1-100 to guess"))
+for x in range(100):
+if (random.randint(1,100)==n):
+print(n)
